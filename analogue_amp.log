@@ -1,0 +1,25 @@
+Circuit: * C:\Users\Uni\Documents\GitHub\audio_jack_amp\audio_jack_amp\analogue_amp.asc
+
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+
+Date: Fri Oct 05 19:59:25 2018
+Total elapsed time: 0.170 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 26348
+traniter = 26334
+tranpoints = 6973
+accept = 4885
+rejected = 2088
+matrix size = 10
+fillins = 3
+solver = Normal
+Matrix Compiler1: 552 bytes object code size  0.2/0.1/[0.0]
+Matrix Compiler2: off  [0.1]/0.2/0.1
+
