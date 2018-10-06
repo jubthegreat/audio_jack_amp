@@ -1,0 +1,25 @@
+* C:\Users\shaun\Documents\GitHub\audio_jack_amp\analogue_amp.asc
+XU1 N002 N005 N004 opamp Aol=100K GBW=10Meg
+Q1 +9 N004 N006 0 PN2222A
+Q2 0 N007 N006 0 PNP
+Vdc +9 0 9V
+R§speaker_load N003 0 8
+C1 N006 N004 0.22µ
+D1 N004 N007 D
+C2 N004 N007 47µ
+R1 N007 0 10k
+R2 N002 N001 11k
+R3 N003 N002 11k
+V1 N001 0 SINE(0 0.5 100)
+V2 N005 0 4.5V
+C3 N003 N006 0.22µ
+.model D D
+.lib C:\Users\shaun\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\shaun\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 1
+.lib opamp.sub
+.include  .\component_libraries\PN2222A.LIB
+.backanno
+.end
